@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- Add to Wishlist Flow Suite -->
+<suite name="AddToWishlistSuite">
+    <test name="AddToWishlistFlow">
+        <classes>
+            <class name="EcommerceTests">
+                <methods>
+                    <include name="logInTest"/>
+                    <include name="gotoLaptopCategoryTest"/>
+                    <include name="addToWishlist"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
